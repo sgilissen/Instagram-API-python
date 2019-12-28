@@ -4,7 +4,7 @@
 # Use text editor to edit the script and type in valid Instagram username/password
 
 import json
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI importPyInstagramAPI
 
 
 class DownloadThread():
@@ -63,9 +63,9 @@ class DownloadThread():
 if __name__ == "__main__":
     thread_id = ''  # id thread for download
 
-    InstagramAPI = InstagramAPI("login", "password")
-    InstagramAPI.login()
+    PyInstagramAPI = PyInstagramAPI("login", "password")
+    PyInstagramAPI.login()
 
-    inst = DownloadThread(InstagramAPI, thread_id)
+    inst = DownloadThread(PyInstagramAPI, thread_id)
     inst.download()
     inst.save()

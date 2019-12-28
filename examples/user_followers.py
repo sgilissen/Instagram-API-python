@@ -3,13 +3,13 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 
 
 def getTotalFollowers(api, user_id):
     """
     Returns the list of followers of the user.
-    It should be equivalent of calling api.getTotalFollowers from InstagramAPI
+    It should be equivalent of calling api.getTotalFollowers from PyInstagramAPI
     """
 
     followers = []
@@ -26,7 +26,7 @@ def getTotalFollowers(api, user_id):
 
 
 if __name__ == "__main__":
-    api = InstagramAPI("username", "password")
+    api = PyInstagramAPI("username", "password")
     api.login()
 
     # user_id = '1461295173'

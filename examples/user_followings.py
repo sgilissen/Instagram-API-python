@@ -3,13 +3,13 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 import time
 from datetime import datetime
 
 user_id = ''
 
-API = InstagramAPI("login", "password")
+API = PyInstagramAPI("login", "password")
 API.login()
 
 API.getUsernameInfo(user_id)

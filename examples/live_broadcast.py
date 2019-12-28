@@ -5,7 +5,7 @@
 
 import subprocess
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 
 USERNAME = ''
 PASSWORD = ''
@@ -13,7 +13,7 @@ FILE_PATH = '/path/to/video/file'
 PUBLISH_TO_LIVE_FEED = False
 SEND_NOTIFICATIONS = False
 
-api = InstagramAPI(USERNAME, PASSWORD, debug=False)
+api =PyInstagramAPI(USERNAME, PASSWORD, debug=False)
 assert api.login()
 
 # first you have to create a broadcast - you will receive a broadcast id and an upload url here

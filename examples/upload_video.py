@@ -3,7 +3,7 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 import urllib
 
 video_url = 'https://instagram.fmad3-2.fna.fbcdn.net/t50.2886-16/17157217_1660580944235536_866261046376005632_n.mp4'  # a valid instagram video
@@ -14,6 +14,6 @@ thumbnail_local_path = thumbnail_url.split("/")[-1]
 urllib.urlretrieve(video_url, video_local_path)
 urllib.urlretrieve(thumbnail_url, thumbnail_local_path)
 
-InstagramAPI = InstagramAPI("login", "password")
-InstagramAPI.login()  # login
-InstagramAPI.uploadVideo(video_local_path, thumbnail_local_path, caption="Tortuguero")
+PyInstagramAPI = PyInstagramAPI("login", "password")
+PyInstagramAPI.login()  # login
+PyInstagramAPI.uploadVideo(video_local_path, thumbnail_local_path, caption="Tortuguero")

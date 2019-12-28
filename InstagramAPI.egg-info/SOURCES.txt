@@ -1,0 +1,12 @@
+README.md
+setup.py
+PyInstagramAPI/ImageUtils.py
+PyInstagramAPI/PyInstagramAPI.py
+PyInstagramAPI/__init__.py
+PyInstagramAPI/exceptions.py
+PyInstagramAPI.egg-info/PKG-INFO
+PyInstagramAPI.egg-info/SOURCES.txt
+PyInstagramAPI.egg-info/dependency_links.txt
+PyInstagramAPI.egg-info/not-zip-safe
+PyInstagramAPI.egg-info/requires.txt
+PyInstagramAPI.egg-info/top_level.txt

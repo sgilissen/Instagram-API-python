@@ -39,12 +39,12 @@ The new fake Instagram account with an unverified phone number after ~ 1-24 hour
 ### Pip Installation Instructions
 1. Install via pip
 
-    `pip install InstagramApi`
+    `pip install PyInstagramAPI`
 
     or
 
-    `py -m install InstagramApi`
+    `py -m install PyInstagramAPI`
 
-2. Import InstagramAPI from a python command prompt
+2. Import PyInstagramAPI from a python command prompt
 
-    `from InstagramAPI import InstagramAPI`
+    `from PyInstagramAPI import PyInstagramAPI`

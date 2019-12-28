@@ -3,7 +3,7 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 import time
 from datetime import datetime
 
@@ -13,7 +13,7 @@ media_id = '1477006830906870775_19343908'
 until_date = '2017-03-31'
 count = 100
 
-API = InstagramAPI("login", "password")
+API = PyInstagramAPI("login", "password")
 API.login()
 API.getUsernameInfo()
 has_more_comments = True

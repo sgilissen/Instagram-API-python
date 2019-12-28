@@ -9,7 +9,7 @@ import random
 from os import listdir
 from os.path import isfile, join
 from random import randint
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 
 PhotoPath = "~/igphoto/"  # Change Directory to Folder with Pics that you want to upload
 # Change to your Photo Hashtag
@@ -20,7 +20,7 @@ ListFiles = [f for f in listdir(PhotoPath) if isfile(join(PhotoPath, f))]
 print("Total Photo in this folder:" + str(len(ListFiles)))
 
 # Start Login and Uploading Photo
-igapi = InstagramAPI("login", "password")
+igapi = PyInstagramAPI("login", "password")
 igapi.login()  # login
 
 for i in range(len(ListFiles)):

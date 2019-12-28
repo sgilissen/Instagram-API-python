@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6935c414-1768-4493-a8ca-bee9c915fa25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/InstagramAPI/InstagramAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/InstagramAPI/InstagramAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Instagram-API-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Instagram-API-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstagramAPI/ImageUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyInstagramAPI/ImageUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstagramAPI/InstagramAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyInstagramAPI/InstagramAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstagramAPI/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyInstagramAPI/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstagramAPI/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyInstagramAPI/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Example-BulkUpload.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Example-BulkUpload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/delete_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/delete_media.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/direct_share.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/direct_share.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/evaluation/evaluate_user_followers.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/evaluation/evaluate_user_followers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/get_all_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/get_all_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/live_broadcast.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/live_broadcast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/thread_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/thread_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/upload_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/upload_album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/upload_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/upload_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/upload_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/upload_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/user_followers.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/user_followers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/user_followings.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/user_followings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,16 +38,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InstagramAPI.egg-info/PKG-INFO">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InstagramAPI/InstagramAPI.py">
+        <entry file="file://$PROJECT_DIR$/build/lib/PyInstagramAPI/InstagramAPI.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyInstagramAPI/InstagramAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
+            <state relative-caret-position="170">
               <caret line="1105" selection-start-line="1105" selection-end-line="1105" />
               <folding>
                 <element signature="e#47#62#0" expanded="true" />
@@ -36,14 +81,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PyInstagramAPI</find>
+      <find>InstagramAPI</find>
+      <find>def send</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PyInstagramAPI</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/InstagramAPI.egg-info</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/InstagramAPI/InstagramAPI.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/InstagramAPI.egg-info/PKG-INFO" />
       </list>
     </option>
   </component>
@@ -58,9 +119,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1356" />
-    <option name="height" value="714" />
+    <option name="x" value="858" />
+    <option name="y" value="31" />
+    <option name="width" value="1348" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -77,7 +139,30 @@
             <path>
               <item name="Instagram-API-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Instagram-API-python" type="462c0819:PsiDirectoryNode" />
-              <item name="InstagramAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Instagram-API-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Instagram-API-python" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Instagram-API-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Instagram-API-python" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="PyInstagramAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Instagram-API-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Instagram-API-python" type="462c0819:PsiDirectoryNode" />
+              <item name="InstagramAPI.egg-info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Instagram-API-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Instagram-API-python" type="462c0819:PsiDirectoryNode" />
+              <item name="PyInstagramAPI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,10 +172,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,28 +198,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577550981475</updated>
-      <workItem from="1577550983139" duration="503000" />
+      <workItem from="1577550983139" duration="3877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503000" />
+    <option name="totallyTimeSpent" value="3877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49946752" visible="true" weight="0.20955484" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.20955484" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -149,22 +235,51 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/PyInstagramAPI/InstagramAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InstagramAPI/InstagramAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
+        <state relative-caret-position="170">
           <caret line="1105" selection-start-line="1105" selection-end-line="1105" />
           <folding>
             <element signature="e#47#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramAPI.egg-info/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/InstagramAPI/InstagramAPI.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/InstagramAPI/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/PyInstagramAPI/InstagramAPI.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

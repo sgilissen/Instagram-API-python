@@ -3,7 +3,7 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 from examples.evaluation.evaluation_log import EvaluationLog
 from examples.user_followers import getTotalFollowers
 
@@ -20,7 +20,7 @@ def evaluate_method(function, parameters, function_name=None):
 
 
 if __name__ == "__main__":
-    api = InstagramAPI("username", "password")
+    api = PyInstagramAPI("username", "password")
     api.login()
 
     # For a user with over 22k followers, use: user_id = '1461295173'

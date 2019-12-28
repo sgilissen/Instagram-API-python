@@ -3,7 +3,7 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
+from PyInstagramAPI import PyInstagramAPI
 
 """
 ## Uploading a timeline album (aka carousel aka sidecar).
@@ -32,6 +32,6 @@ media = [  # Albums can contain between 2 and 10 photos/videos.
     # }
 ]
 captionText = 'caption 3'  # Caption to use for the album.
-ig = InstagramAPI("login", "password")
+ig = PyInstagramAPI("login", "password")
 ig.login()
 ig.uploadAlbum(media, caption=captionText)

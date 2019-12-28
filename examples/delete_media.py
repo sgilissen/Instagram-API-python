@@ -7,13 +7,13 @@
 # this example for how to delete self media feed
 # have 2 parameter on method deleteMedia( MediaID, MediaType)
 
-from InstagramAPI import InstagramAPI 
+from PyInstagramAPI import PyInstagramAPI
 
 # change this username & password
 username = 'your_username_here'
 password = 'your_password_here'
 
-ig = InstagramAPI(username, password) 
+ig = PyInstagramAPI(username, password)
 
 # login 
 ig.login() 

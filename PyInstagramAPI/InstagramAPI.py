@@ -42,7 +42,7 @@ except:
 from .exceptions import SentryBlockException
 
 
-class InstagramAPI:
+class PyInstagramAPI:
     API_URL = 'https://i.instagram.com/api/v1/'
     DEVICE_SETTINTS = {'manufacturer': 'Xiaomi',
                        'model': 'HM 1SW',
