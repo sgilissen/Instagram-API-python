@@ -1,2 +1,2 @@
-from .PyInstagramAPI import *
+from .InstagramAPI import *
 from .ImageUtils import *
